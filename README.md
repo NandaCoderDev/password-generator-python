@@ -1,66 +1,74 @@
-# 🔐 Gerador de Senhas Seguras em Python
+# 🔐 Password Generator (Python)
 
-Aplicação desenvolvida em Python para geração de senhas aleatórias seguras e validação de força, com foco em boas práticas de segurança da informação.
-
----
-
-## 🧠 Sobre o projeto
-
-Este projeto foi criado com o objetivo de praticar lógica de programação e conceitos iniciais de segurança, simulando a criação de senhas fortes utilizadas em sistemas reais.
+A Python application that generates secure random passwords and evaluates their strength, following basic information security practices.
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 About the Project
 
-* 🔑 Geração de senhas aleatórias
-* 📏 Definição do tamanho da senha
-* 🛡️ Verificação de força (Fraca, Média, Forte)
-* 🎲 Uso de letras, números e caracteres especiais
+This project was developed to practice programming logic and introduce fundamental security concepts by simulating real-world password generation.
 
 ---
 
-## 🛠️ Tecnologias
+## ⚙️ Features
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+- 🔑 Random password generation  
+- 📏 Custom password length  
+- 🛡️ Password strength evaluation (Weak, Medium, Strong)  
+- 🎲 Combination of letters, numbers, and special characters  
 
 ---
 
-## ▶️ Como executar o projeto
+## 🛠️ Technologies Used
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+## ▶️ How to Run
 
 ```bash
-py main.py
+python main.py
 ```
 
----
+## 🧪 QA Perspective
 
-## 💡 Exemplo de uso
+This project can be used to practice:
 
-```bash
-=== Gerador de Senhas ===
-Digite o tamanho da senha: 12
+- Input validation testing (invalid or extreme values)
 
-Senha gerada: A$k9!Lm2#xPq
-Força da senha: Forte
-```
+Edge case testing (very short or very long passwords)
 
----
+Output validation
 
-## 🎯 Objetivo
+Security validation (password strength rules)
 
-Desenvolver habilidades em Python e aplicar conceitos básicos de segurança da informação, como geração de senhas fortes e validação de critérios de segurança.
+## 🔐 Security Insight
 
----
+This project reinforces basic security principles such as:
 
-## 📌 Melhorias futuras
+Strong password creation
 
-* Interface gráfica (GUI)
-* Exportação de senhas
-* Regras avançadas de validação
-* Integração com banco de dados
+Use of entropy (randomness)
 
----
+Importance of complexity in authentication systems
 
-## 👩‍💻 Autora
+## 📌 Purpose
 
-Desenvolvido por **Fernanda Marques**
-🔗 GitHub: https://github.com/NandaCoderDev
+This project was created to strengthen programming logic while applying a QA mindset and basic cybersecurity concepts.
+
+## 🚀 Future Improvements
+
+GUI (Graphical Interface)
+
+Password export feature
+
+Advanced validation rules
+
+Database integration
+
+👩‍💻 Author
+
+Fernanda Marques
+GitHub: https://github.com/NandaTechLabs
+
